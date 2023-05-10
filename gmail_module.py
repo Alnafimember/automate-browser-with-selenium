@@ -18,7 +18,7 @@ time.sleep(5)
 
 #The username or Email for gmail login
 myemail=driver.find_element(By.ID,"identifierId")
-myemail.send_keys("mr5467519@gmail.com")
+myemail.send_keys("")
 
 time.sleep(5)
 #Click button to go next for entering password
@@ -26,17 +26,11 @@ driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[
 
 time.sleep(5)
 #Password typing
-driver.find_element(By.NAME,'Passwd').send_keys('salam.123')
+driver.find_element(By.NAME,'Passwd').send_keys('')
 
 time.sleep(5)
 #Next to login
-# driver.find_element(By.CLASS_NAME,'VfPpkd-vQzf8d').click()
 driver.find_element(By.XPATH,"/html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[2]/div/div[1]/div/div/button/span").click()
-# driver.find_element(By.LINK_TEXT,'Next').click()
-# driver.find_element(By.PARTIAL_LINK_TEXT,"Next").click()
-# driver.find_element(By.ID,'Next').click()
-# driver.find_element(By.ID,"Next")
-# driver.find_element(By.CSS_SELECTOR,'#passwordNext > div > button > span')
-# driver.find_element(By.XPATH,'//*[@id="passwordNext"]/div/button/span')
+
 print("Login success")
 time.sleep(5)
