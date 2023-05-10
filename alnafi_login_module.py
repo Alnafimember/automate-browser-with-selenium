@@ -9,13 +9,13 @@ driver.maximize_window()
 
 #The username or Email is
 myemail=driver.find_element(By.ID,"Username/ Email")
-myemail.send_keys("Muhammad__")
+myemail.send_keys("")
 time.sleep(5)
 
 #Password of alnafi is
 
 mypassword=driver.find_element(By.ID,"Password")
-mypassword.send_keys("Peanut@345")
+mypassword.send_keys("")
 time.sleep(5)
 
 #Click on login button
