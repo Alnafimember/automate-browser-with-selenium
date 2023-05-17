@@ -1,0 +1,35 @@
+In this repo we will learn how to automate your browser with selenium?
+
+#First of all we will import the modules that are needed to automation,
+#We will start from basic level
+ ---------------------------------------
+ First of all you have to install browser driver to autmate it.
+ Here are the links of drivers:-
+ ---> see your browser version then install it.
+        -->https://chromedriver.chromium.org/downloads
+        -->https://github.com/mozilla/geckodriver/releases
+        -->https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+        
+  ############# Chrome Browser ###########################
+  
+  from selenium import webdriver
+  driver=webdriver.Chrome()
+  # write the path of python file
+  path=r"C:\Users\Muhammad\PycharmProjects\pythonProject\file.py"
+  driver.get("https://www.saucedemo.com/")
+ 
+  ############# Firefox Browser ############################
+  
+  from selenium import webdriver
+  driver=webdriver.Firefox()
+  # write the path of python file
+  path=r"C:\Users\Muhammad\PycharmProjects\pythonProject\file.py"
+  driver.get("https://www.saucedemo.com/")
+  ############# Microsoftedge Browser ########################
+  
+  from selenium import webdriver
+  driver=webdriver.Firefox()
+  # write the path of python file
+  path=r"C:\Users\Muhammad\PycharmProjects\pythonProject\file.py"
+  driver.get("https://www.saucedemo.com/")
+ 
