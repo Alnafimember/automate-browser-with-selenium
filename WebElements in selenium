@@ -1,0 +1,23 @@
+Web-elements in selenium
+
+html  --> hypertext markup language
+ <h1> </h1> tagname 
+ ---------- Tag-List -----------
+<head>     
+<body>      
+<dir>
+<p>
+<a>
+<img>
+<br>
+<h1> .. <h6>
+<li>  ---> list item
+<ol>  ---> order list 
+<ul>  ---> under list
+<table> 
+<tr>
+<td>
+<form>
+<button>
+<submit>
+<textarea>
